@@ -32,5 +32,4 @@ public class Department {
             inverseJoinColumns = @JoinColumn(name = "doctor_id")
     )
     private Set<Doctor> doctors = new HashSet<>();
-
 }
